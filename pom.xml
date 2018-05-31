@@ -68,7 +68,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>LATEST</version>
+            <version>6.13.1</version>
         </dependency>
 
         <dependency>
@@ -131,6 +131,7 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
+                    <encoding>UTF-8</encoding>
 
                     <!--- 包括本地jar包 -->
                     <compilerArguments>

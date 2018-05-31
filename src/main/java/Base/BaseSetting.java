@@ -47,10 +47,8 @@ public class BaseSetting {
 
     // 替换根账户，建表每次都使用不同账户
     public void  replaceAccount(){
-
         c.as(sNewAccountId, sNewSecret);
         c.use(sNewAccountId);
-
     }
 
 }

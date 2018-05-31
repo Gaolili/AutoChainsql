@@ -17,13 +17,8 @@ import java.util.logging.Level;
 import java.lang.String;
 
 import org.json.JSONObject;
-import org.json.JSONArray ;
-
-import com.peersafe.chainsql.core.Chainsql;
 import com.peersafe.chainsql.core.Submit.SyncCond;
-import com.peersafe.chainsql.util.Util;
-import com.peersafe.base.client.requests.*;
-import com.peersafe.base.client.responses.*;
+
 
 import org.testng.Assert;
 import org.testng.Reporter;
