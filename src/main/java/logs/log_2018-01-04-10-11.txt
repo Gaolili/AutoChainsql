@@ -1,0 +1,1 @@
+2018-01-04 10:11:00  [ main:0 ] - [ INFO ]  TestCases.testRegist: ====testRegits++=====

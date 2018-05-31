@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test suite" parallel="true" data-provider-thread-count="2">
+
+    <test name="createTable" group-by-instances="true">
+
+
+
+        <classes>
+
+            <class name="TestCases.testCreatTable"/>
+            <!--<class name="TestCases.testInsertTable"/>-->
+            <!--<class name="TestCases.testUpdateTable"/>-->
+            <!--<class name="TestCases.testRenameTable"/>-->
+
+        </classes>
+
+        <!--<listeners>-->
+            <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+            <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+         <!--</listeners>-->
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

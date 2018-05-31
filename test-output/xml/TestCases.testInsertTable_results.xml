@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="createTable"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.971">
+  <properties />
+  
+  
+            <testcase name="createTable" time="3.334" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="6.073" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="5.932" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="0.222" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="0.233" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="0.707" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="0.237" classname="TestCases.testInsertTable" />
+                <testcase name="createTable" time="0.233" classname="TestCases.testInsertTable" />
+      
+</testsuite>
