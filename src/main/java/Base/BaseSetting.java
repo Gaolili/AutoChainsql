@@ -1,17 +1,11 @@
 package Base;
 
-import CommonFunction.Log;
 import com.peersafe.chainsql.core.Chainsql;
 import org.json.JSONObject;
-import org.testng.annotations.BeforeSuite;
-
 import java.util.logging.Level;
-
-import static com.peersafe.chainsql.core.Chainsql.c;
 
 public class BaseSetting {
     public static final Chainsql c = Chainsql.c;
-
 
     public static String rootAddress = "zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh";
     public static String rootSecret = "xnoPBzXtMeMyMHUVTgbuqAfg1SUTb";
@@ -29,7 +23,6 @@ public class BaseSetting {
         c.use(rootAddress);
 //        //设置chainsql日志级别
         c.connection.client.logger.setLevel(Level.SEVERE);
-
 
         if (isNeedReplaceAccount){
             generateAccount();
