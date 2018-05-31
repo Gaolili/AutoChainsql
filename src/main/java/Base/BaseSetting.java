@@ -13,7 +13,6 @@ public class BaseSetting {
 //    public static String rootAddress = "zHyz3V6V3DZ2fYdb6AUc5WV4VKZP1pAEs9";
 //    public static String rootSecret = "xxprJNCURq7J9BVpeox38CGq2nwLM";
 
-
     public static String sNewAccountId, sNewSecret;
 
 
