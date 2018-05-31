@@ -29,18 +29,15 @@ import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
 @Listeners({AssertionListener.class})
-public class testCreatTable {
+public class testCreatTable extends BaseSetting{
     public static final Chainsql c = Chainsql.c;
 
     @BeforeClass
     public void  setUP(){
 
-//      initChainsql(true);// 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
+      initChainsql(true);// 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
 
-        c.connect("ws://10.100.0.101:6006");
-        c.as("zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh", "xnoPBzXtMeMyMHUVTgbuqAfg1SUTb");
-        c.use("zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh");
-
+        System.out.println("test");
     }
 
     @Test(dataProvider = "provideNumbers" )
@@ -57,15 +54,17 @@ public class testCreatTable {
         // 分割raw字段
         String[] rawArr = raws.split("\\+");
 
-        List<String> args = Arrays.asList(rawArr);
-        JSONObject obj;
-        obj = c.createTable(tablename, args, isConfidential).submit(SyncCond.db_success);
-        System.out.println("obj ="+obj);
-        Reporter.log("【返回结果】"+ obj);
-        String status = obj.getString("status");
+        System.out.println("createTable--");
 
-        Reporter.log("【用例结果】: expected:"+exceptResult+"actual:"+status);
-        Assert.assertEquals(status,exceptResult);
+//        List<String> args = Arrays.asList(rawArr);
+//        JSONObject obj;
+//        obj = c.createTable(tablename, args, isConfidential).submit(SyncCond.db_success);
+//        System.out.println("obj ="+obj);
+//        Reporter.log("【返回结果】"+ obj);
+//        String status = obj.getString("status");
+//
+//        Reporter.log("【用例结果】: expected:"+exceptResult+"actual:"+status);
+//        Assert.assertEquals(status,exceptResult);
     }
 
     @DataProvider(name = "provideNumbers")
