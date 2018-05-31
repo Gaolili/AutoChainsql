@@ -5,6 +5,7 @@ import CommonFunction.Assertion;
 import CommonFunction.AssertionListener;
 import CommonFunction.ExcelData;
 import CommonFunction.Log;
+import com.peersafe.chainsql.core.Chainsql;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -28,11 +29,18 @@ import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
 @Listeners({AssertionListener.class})
-public class testCreatTable extends BaseSetting{
+public class testCreatTable {
+    public static final Chainsql c = Chainsql.c;
 
     @BeforeClass
     public void  setUP(){
-       initChainsql(true);// 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
+
+//      initChainsql(true);// 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
+
+        c.connect("ws://10.100.0.101:6006");
+        c.as("zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh", "xnoPBzXtMeMyMHUVTgbuqAfg1SUTb");
+        c.use("zHb9CJAWyB4zj91VRWn96DkukG4bwdtyTh");
+
     }
 
     @Test(dataProvider = "provideNumbers" )
