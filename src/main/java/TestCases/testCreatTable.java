@@ -31,7 +31,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
-import sun.jvm.hotspot.utilities.AssertionFailure;
 
 @Listeners({AssertionListener.class})
 public class testCreatTable extends BaseSetting{
