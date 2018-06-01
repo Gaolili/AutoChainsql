@@ -134,11 +134,11 @@
                     <encoding>UTF-8</encoding>
 
                     <!--- 包括本地jar包 -->
-                    <compilerArguments>
+                    <!--<compilerArguments>-->
 
-                        <extdirs>libs</extdirs>
+                        <!--<extdirs>libs</extdirs>-->
 
-                    </compilerArguments>
+                    <!--</compilerArguments>-->
 
                 </configuration>
             </plugin>
@@ -152,7 +152,7 @@
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <!-- 解决maven oom问题http://blog.csdn.net/e5945/article/details/7740904 -->
                     <argLine>-Xms512m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=128m</argLine>
-                    <forkCount>0</forkCount>
+                    <!--<forkCount>0</forkCount>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>

@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.075">
+           time="0.054">
   <properties />
   
   
             <testcase name="createTable" time="0.002" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.054" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.040" classname="TestCases.testCreatTable" />
                 <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
                 <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.002" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.006" classname="TestCases.testCreatTable" />
                 <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
                 <testcase name="createTable" time="0.003" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.010" classname="TestCases.testCreatTable" />
       
 </testsuite>
