@@ -21,7 +21,7 @@ public class BaseSetting {
         c.as(rootAddress, rootSecret);
         c.use(rootAddress);
 //        //设置chainsql日志级别
-        c.connection.client.logger.setLevel(Level.SEVERE);
+//        c.connection.client.logger.setLevel(Level.SEVERE);
 
         if (isNeedReplaceAccount){
             generateAccount();

@@ -19,60 +19,40 @@
                         【参数】: TablenameQQ1&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:20}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;DC5ACDA716827DFA475BF813E38B9F5C5DC116F45CB121257D3720BE63335460&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：验证表名为特殊字符<br />
                         【参数】: Tablename!!$&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:21}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;44AB71F8CD3105D1382FA5D0DF42E4DA7AF4B514582DBD98EF61ECEB8F6F277F&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：验证表名为字符串<br />
                         【参数】: Tablenameawe&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:22}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;7803A27C286C0AAEA965B705011D44ECA2641BA31F7DDEAEB3D7A503289E9916&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：验证表名为小数点<br />
                         【参数】: Tablename12.123&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:23}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;497D4FF0F72F667D865E3FA6454764E210250061D7CF4132962A0876743008FC&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：校验表名为中文<br />
                         【参数】: Tablename中文&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:24}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;56F6799373C065D3187D6479AC194A87342B05A1042AF5918650899739AA0D6A&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：验证表名为已存在的表名<br />
                         【参数】: Tablenameawe&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:26}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;error_message&quot;:&quot;Table exist and not deleted.&quot;,&quot;error_code&quot;:-176,&quot;status&quot;:&quot;error&quot;}<br />
-                        【用例结果】: expected:erroractual:error<br />
                         【用例名称】：验证表名为整数<br />
                         【参数】: Tablename100.0&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;varchar&apos;,&apos;length&apos;:27}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;tx_hash&quot;:&quot;C8B7ED0508D1FBC3EA4F9790107E247BFD541A782324ADA0111297D79F7D5017&quot;,&quot;status&quot;:&quot;db_success&quot;}<br />
-                        【用例结果】: expected:db_successactual:db_success<br />
                         【用例名称】：验证不设置字段的type类型<br />
                         【参数】: TablenameWW22&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;length&apos;:28}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;error_message&quot;:&quot;Exception occured&quot;,&quot;status&quot;:&quot;error&quot;}<br />
-                        【用例结果】: expected:erroractual:error<br />
                         【用例名称】：验证设置type 为不存在的类型<br />
                         【参数】: TablenameWW23&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;int&apos;,&apos;length&apos;:11,&apos;PK&apos;:1,&apos;AI&apos;:1}+<br/>
 {&apos;field&apos;:&apos;name&apos;,&apos;type&apos;:&apos;abc&apos;,&apos;length&apos;:29}+<br/>
 {&apos;field&apos;:&apos;age&apos;,&apos;type&apos;:&apos;int&apos;}<br />
-                        【返回结果】{&quot;error_message&quot;:&quot;Exception occured&quot;,&quot;status&quot;:&quot;error&quot;}<br />
-                        【用例结果】: expected:erroractual:error<br />
                         【用例名称】：验证设置varchar类型字段的length 为0<br />
                         【参数】: TablenameWW24&nbsp; Raw:{&apos;field&apos;:&apos;id&apos;,&apos;type&apos;:&apos;abc&apos;,&apos;length&apos;:0,&apos;PK&apos;:1}<br />
-                        【返回结果】{&quot;error_message&quot;:&quot;Exception occured&quot;,&quot;status&quot;:&quot;error&quot;}<br />
-                        【用例结果】: expected:erroractual:error<br />
             </div>
 
 </body>

@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="21.248">
+           time="0.075">
   <properties />
   
   
-            <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
+            <testcase name="createTable" time="0.002" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.054" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
                 <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="6.265" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="2.965" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.225" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="3.068" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="0.000" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="3.014" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="2.726" classname="TestCases.testCreatTable" />
-                <testcase name="createTable" time="2.985" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.002" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.003" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.001" classname="TestCases.testCreatTable" />
+                <testcase name="createTable" time="0.010" classname="TestCases.testCreatTable" />
       
 </testsuite>
