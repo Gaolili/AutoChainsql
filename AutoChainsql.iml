@@ -124,5 +124,77 @@
     <orderEntry type="library" name="Maven: commons-logging:commons-logging-api:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.collections:google-collections:1.0" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:3.8.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.chainsqld.j:chainsql1.32:1.3.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/chainsql-1.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.bacp.j:bacp.156:1.5.6">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/bcprov-jdk15on-1.56.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.guice.j:guice.156:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/guice-4.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.i2p.j:i2p.0.9:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/i2p-0.9.26.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.websoceket.j:websoceket.0.9:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/Java-WebSocket-1.3.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.json.j:json.0.9:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/json-20160810.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.prot.j:prot.0.9:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/protobuf-java-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.sansec.j:sansec.0.9:4.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/sansec_sdkey2.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

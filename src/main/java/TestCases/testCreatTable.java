@@ -35,7 +35,7 @@ public class testCreatTable extends BaseSetting{
     @BeforeClass
     public void  setUP(){
 
-//        initChainsql(true); // 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
+        initChainsql(true); // 建表每次都需要更换账户，这样做将来做持续集成时方便，就不用更换表名了
 
         System.out.println("test");
     }

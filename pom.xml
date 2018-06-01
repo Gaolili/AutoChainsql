@@ -112,6 +112,73 @@
             <!--<version>5.1.34</version>-->
         <!--</dependency>-->
 
+        <!--单个导入本地jar包-->
+        <dependency>
+            <groupId>com.chainsqld.j</groupId>
+            <artifactId>chainsql1.32</artifactId>
+            <version>1.3.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/chainsql-1.3.2.jar</systemPath>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.bacp.j</groupId>
+            <artifactId>bacp.156</artifactId>
+            <version>1.5.6</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/bcprov-jdk15on-1.56.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.guice.j</groupId>
+            <artifactId>guice.156</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/guice-4.1.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.i2p.j</groupId>
+            <artifactId>i2p.0.9</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/i2p-0.9.26.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.websoceket.j</groupId>
+            <artifactId>websoceket.0.9</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Java-WebSocket-1.3.4.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.json.j</groupId>
+            <artifactId>json.0.9</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/json-20160810.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.prot.j</groupId>
+            <artifactId>prot.0.9</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/protobuf-java-2.5.0.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sansec.j</groupId>
+            <artifactId>sansec.0.9</artifactId>
+            <version>4.1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/sansec_sdkey2.1.1.jar</systemPath>
+        </dependency>
+
+
     </dependencies>
     <build>
         <!-- 新版本maven配合这个标签使用指定代码目录 -->
@@ -135,10 +202,10 @@
 
                     <!--- 包括本地jar包 -->
                     <!--<compilerArguments>-->
-
                         <!--<extdirs>libs</extdirs>-->
-
                     <!--</compilerArguments>-->
+
+
 
                 </configuration>
             </plugin>
