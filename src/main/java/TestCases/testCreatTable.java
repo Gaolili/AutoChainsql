@@ -56,15 +56,15 @@ public class testCreatTable extends BaseSetting{
 
         System.out.println("createTable--");
 
-//        List<String> args = Arrays.asList(rawArr);
-//        JSONObject obj;
-//        obj = c.createTable(tablename, args, isConfidential).submit(SyncCond.db_success);
-//        System.out.println("obj ="+obj);
-//        Reporter.log("【返回结果】"+ obj);
-//        String status = obj.getString("status");
-//
-//        Reporter.log("【用例结果】: expected:"+exceptResult+"actual:"+status);
-//        Assert.assertEquals(status,exceptResult);
+        List<String> args = Arrays.asList(rawArr);
+        JSONObject obj;
+        obj = c.createTable(tablename, args, isConfidential).submit(SyncCond.db_success);
+        System.out.println("obj ="+obj);
+        Reporter.log("【返回结果】"+ obj);
+        String status = obj.getString("status");
+
+        Reporter.log("【用例结果】: expected:"+exceptResult+"actual:"+status);
+        Assert.assertEquals(status,exceptResult);
     }
 
     @DataProvider(name = "provideNumbers")
